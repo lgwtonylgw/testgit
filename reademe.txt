@@ -20,4 +20,6 @@ git push -u origin master//第一次提交要加上-u 将本地和远程仓库�
 //以后提交只要   git push origin master
 git checkout -b dev //创建并切换分支
 git branch //查看所有分支
-
+git branch name //创建分支
+git merge name //合并某分支到当前分支
+git branch -d name //删除分支
