@@ -13,6 +13,9 @@ git reset --hard HEAD~100 //回退到100个版本
 cat readme.txt  pwd  //Linux命令
 git reflog    //查看版本号
 //然后通过   git reset --hard  版本号   来回退到的对应版本
-git checkout '' //创建分支
+git checkout  dev //创建分支
 git checkout -- reademe.txt   //回退到修改之前或者添加到暂存区之前add
+git remote add origin https://github.com/lgwtonylgw/testgit.git
+git push -u origin master//第一次提交要加上-u 将本地和远程仓库关联起来
+//以后提交只要   git push origin master
 
